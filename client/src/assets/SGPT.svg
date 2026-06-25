@@ -1,0 +1,65 @@
+<svg width="340" height="90" viewBox="0 0 340 90" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#e9ecff" stop-opacity="0.85"/>
+  </linearGradient>
+
+  <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#2dd4bf"/>
+    <stop offset="35%" stop-color="#38bdf8"/>
+    <stop offset="70%" stop-color="#6366f1"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+
+  <linearGradient id="subtitle" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#3b82f6"/>
+    <stop offset="100%" stop-color="#8b5cf6"/>
+  </linearGradient>
+
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.18"/>
+  </filter>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="3"/>
+  </filter>
+</defs>
+
+<g filter="url(#shadow)">
+  <rect x="10" y="10" width="70" height="70" rx="22"
+        fill="url(#glass)" stroke="#dbeafe" stroke-width="1.5"/>
+        
+  <path d="M58 25
+           C50 18,39 18,31 24
+           C21 32,24 41,40 45
+           C55 49,60 54,56 62
+           C51 71,37 72,27 64"
+        fill="none"
+        stroke="url(#ribbon)"
+        stroke-width="10"
+        stroke-linecap="round"/>
+        
+  <path d="M56 24
+           C48 18,38 18,31 23"
+        fill="none"
+        stroke="white"
+        stroke-opacity="0.8"
+        stroke-width="2"/>
+
+  <circle cx="66" cy="22" r="2.2" fill="#60a5fa"/>
+  <circle cx="24" cy="66" r="1.8" fill="#8b5cf6"/>
+</g>
+
+<text x="100" y="43"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="30"
+      font-weight="700"
+      fill="#0f172a">S-GPT</text>
+
+<text x="100" y="64"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="12"
+      font-weight="600"
+      fill="url(#subtitle)">Intelligent AI Assistant</text>
+</svg>
